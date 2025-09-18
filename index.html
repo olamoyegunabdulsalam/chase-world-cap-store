@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chase World</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bootstrap_5/css/bootstrap.min.css">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- AOS (Animate on Scroll) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar  -->
+  <nav class="navbar navbar-expand-lg p-2 sticky-top shadow bg-dark" data-aos="fade-down" data-aos-duration="800">
+    <div class="container">
+      <a href="index.html"
+        class="navbar-brand fw-bold fs-2 text-white d-flex justify-content-center align-items-center text-focus-in">
+        <img src="img/chase_logo.png" alt="Chase Logo" style="width:60px;">Chase World
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <i class="fa-solid fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end " id="mynavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fw-bold m-3 text-white" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold m-3 text-white" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold m-3 text-white" href="#products">Products</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <main id="home">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center" style="min-height: 70vh;">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+          <h1 class="display-4 mb-3 fw-bold text-white">
+            Premium Face Caps for Every Style
+          </h1>
+          <p class="mb-3 text-white">
+            Discover our collection of high-quality, stylish face caps perfect for any occasion. From casual wear to
+            sports activities, we've got you covered!
+          </p>
+          <div class="d-flex">
+            <a href="https://wa.me/+2348143770323?text=Hi! I'm interested in your face caps. Can you tell me more?"
+              target="_blank" class="btn btn-light me-3">
+              <i class="fab fa-whatsapp me-2"></i>Order Now
+            </a>
+            <a href="#products" class="btn btn-outline-light ">View Products</a>
+          </div>
+        </div>
+        <div class="col-lg-5 py-3" data-aos="fade-left" data-aos-duration="1000">
+          <div class="hero-card">
+            <img src="img/Chase_blue_color.png" class="h-50 w-50 " alt="Chase cap">
+            <img src="img/Chase-d_red_color.png" class="h-50 w-50 " alt="Chase cap">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- About Us  -->
+  <section class="container py-5" id="about">
+    <h2 data-aos="fade-up">About Chase</h2>
+    <div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6 pt-5" data-aos="zoom-in" data-aos-duration="1000">
+          <img src="img/Person wearing chase.jpg" alt="" height="350px" width="350px" class="shadow card">
+        </div>
+        <div class="col-lg-6 pt-5" data-aos="fade-left" data-aos-duration="1000">
+          <h4 class="fs-3 mb-3">Crafting Quality Since Day One</h4>
+          <p class="mb-3">Chase is a fashion brand built for momentum clean silhouettes, elevated details, and pieces
+            that move with you. We blend timeless design with modern edge so you can Chase Bold, every day.</p>
+          <p class="mb-3">Born from the energy of the city and the drive to keep moving, Chase designs wardrobe
+            essentials with a refined, modern twist. From street to soirée, our pieces balance timeless elegance and
+            everyday function premium fabrics, sharp fits, and statement details that don’t shout, they speak.
+            Chase is for the self-starter, the night runner, the dream chaser. Wear what moves you.</p>
+          <div class="row">
+            <div class="col-6 text-center" data-aos="fade-up" data-aos-delay="200">
+              <i class="fas fa-award fa-2x text-primary mb-2"></i>
+              <h5>Premium Quality</h5>
+            </div>
+            <div class="col-6 text-center" data-aos="fade-up" data-aos-delay="400">
+              <i class="fas fa-shipping-fast fa-2x text-primary mb-2"></i>
+              <h5> Fast Delivery</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products  -->
+  <section class="py-5 bg-light" id="products">
+    <div class="container">
+      <h2 data-aos="fade-up">Our Products</h2>
+      <p class="py-3 fs-5 text-center" data-aos="fade-up" data-aos-delay="200">
+        Explore our diverse collection of premium face caps
+      </p>
+      <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-lg-5 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <div class="card border-0 rounded-3 h-100 p-2 product-card">
+            <div class="row align-items-center">
+              <div class="col-5 text-center p-3">
+                <img id="product-image-1" src="img/Chase_blue_color.png" alt="Classic Chase Cap"
+                  class="img-fluid rounded" style="max-height: 150px; object-fit: contain;">
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold mb-2">Classic Chase </h5>
+                  <p class="card-text text-muted small">
+                    A timeless cap that complements any outfit. Perfect for casual wear.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center flex-wrap mt-3">
+                    <span class="fw-bold text-dark fs-6">₦5,000</span>
+                    <a href="https://wa.me/+2348143770323?text=Hi! I'm interested in the Classic Chase Cap."
+                      target="_blank" class="btn btn-primary btn-sm px-3">
+                      <i class="fab fa-whatsapp me-2"></i>Order
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-muted d-flex mx-2 align-items-center">
+              <span class="me-2">Available in:</span>
+              <div class="color red mx-1" data-image="img/Chase_red_color.png" data-color="Red"></div>
+              <div class="color blue mx-1" data-image="img/Chase_blue_color.png" data-color="Blue"></div>
+              <div class="color purple mx-1" data-image="img/Chase_purple_color.png" data-color="Purple"></div>
+              <div class="color mint mx-1" data-image="img/Chase_sea_green_color.png" data-color="Mint"></div>
+              <div class="color lilac mx-1" data-image="img/Chase_violet_color.png" data-color="Lilac"></div>
+              <div class="color light-blue mx-1" data-image="img/Chase_light-blue_color.png" data-color="Light Blue"></div>
+              <div class="color brown mx-1" data-image="img/Chase_brown_color.png" data-color="Brown"></div>
+              <div class="color navy mx-1" data-image="img/Chase_marine_color.png" data-color="Navy"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-5 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <div class="card border-0 rounded-3 h-100 p-2 product-card">
+            <div class="row align-items-center">
+              <div class="col-5 text-center p-3">
+                <img id="product-image-2" src="img/Chase-d_red_color.png" alt="Trucker Chase Cap"
+                  class="img-fluid rounded" style="max-height: 150px; object-fit: contain;">
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold mb-2">Trucker Chase </h5>
+                  <p class="card-text text-muted small">
+                    Cap that elevates any look — effortless style for everyday wear.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center flex-wrap mt-3">
+                    <span class="fw-bold text-dark fs-6">₦5,000</span>
+                    <a href="https://wa.me/+2348143770323?text=Hi! I'm interested in the Trucker Chase Cap."
+                      target="_blank" class="btn btn-primary btn-sm px-3">
+                      <i class="fab fa-whatsapp me-2"></i>Order
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-muted d-flex mx-2 align-items-center">
+              <span class="me-2">Available in:</span>
+              <div class="color red mx-1" data-image="img/Chase-d_red_color.png" data-color="Red"></div>
+              <div class="color blue mx-1" data-image="img/Chase-d_blue_color.png" data-color="Blue"></div>
+              <div class="color pink mx-1" data-image="img/Chase-d_pink_color.png" data-color="Pink"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer  -->
+  <footer class="py-5" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-5">
+          <h3>Chase World</h3>
+          <p>Premium face caps for every style and occasion.</p>
+          <div class="social-links">
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="https://wa.me/+2348143770323" target="_blank" class="text-white"><i class="fab fa-whatsapp fa-lg"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <h3>Get In Touch</h3>
+          <p><i class="fas fa-phone text-primary"></i> +234 707 849 4162</p>
+          <p><i class="fas fa-envelope text-primary"></i> Chaseworld195@gmail.com</p>
+          <p><i class="fab fa-whatsapp text-success"></i> +234 814 377 0323</p>
+        </div>
+        <div class="col-lg-4">
+          <h3>Business Hours</h3>
+          <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+          <p>Saturday: 10:00 AM - 4:00 PM</p>
+          <p>Sunday: Closed</p>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center">© 2025 Chase. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/+2348143770323?text=Hi! I'm interested in your face caps." target="_blank"
+    class="btn btn-success whatsapp-btn animate__animated animate__pulse animate__infinite">
+    <i class="fab fa-whatsapp fa-lg"></i>
+  </a>
+
+  <!-- AOS Init -->
+  <script>
+    AOS.init({
+      once: true,
+      duration: 1000,
+      easing: "ease-in-out"
+    });
+  </script>
+
+  <script src="js/app.js"></script>
+  <script src="bootstrap_5/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
